@@ -10,7 +10,7 @@ function resetTatnick() {
 
 function loadUser() {
   fetch(
-    `https://fxptest.000webhostapp.com/who/user.php?user=${getCookie(
+    `https://testfxp.netlify.app/.netlify/functions/hello?username=${getCookie(
       "username"
     )}`
   )
@@ -80,3 +80,4 @@ function reSet() {
   gc2.value = "#ffe600";
   update();
 }
+
